@@ -1,0 +1,61 @@
+
+$colorP: #bb3b3b;
+$colorS: #ca7575;
+$colorS2: #374b73;
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    grid-area: menu;
+}
+nav li a{
+    color: $colorP;
+    font-style: oblique;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(38, 28, 129, 0.226), white);
+}
+
+footer p{
+    grid-area: copy;
+    color: $colorP;
+    font-size: 20px;
+    margin: 10px;
+}
+
+footer section{
+    grid-area: ayuda;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-areas: 
+    "copy ayuda";
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, #ca757583, white);
+}
+/*Estilos generales*/

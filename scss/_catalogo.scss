@@ -1,0 +1,42 @@
+.titulos{
+    display: flex;
+    justify-content: center;
+    color: $colorP;
+    font-size: 40px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 501px) and (max-width: 1023px){
+    .menuCatalogo{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .catalogos{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@keyframes animacionCatalogo{
+    0%{
+        transform: scale(100%);
+    }
+    25%{
+        transform: scale(200%);
+    }
+    50%{
+        transform: scale(150%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+
+}
+
+.animacionCatalogo:hover{
+    animation-name: animacionCatalogo;
+    animation-duration: 13s;
+}
