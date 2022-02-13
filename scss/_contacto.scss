@@ -7,10 +7,6 @@
     justify-content: center;
 }
 
-form{
-    border: $colorP double;
-}
-
 fieldset{
     margin: 20px;
     border-radius: 5px;
@@ -44,6 +40,7 @@ input{
 form{
     display: flex;
     flex-direction: column;
+    border: $colorP double;
 }
 main{
     grid-area: contacto;
@@ -78,8 +75,6 @@ footer{
     }
     form{
         flex-direction: column;
-    }
-    form{
         background-image: none;
         padding: 20px;
         margin: 20px;

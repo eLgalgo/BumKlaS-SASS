@@ -1,30 +1,27 @@
 /*Nosotros*/
-.sponsors{
-    background-color: #bb3b3b34
-}
 main p{
     display: flex;
     align-content: center;
     flex-wrap: wrap;
 }
 .sponsors{
+    background-color: #bb3b3b34;
     grid-area: sponsors;
 }
 .imagenNosotros1{
     grid-area: im1;
     display: flex;
     flex-direction: row;
+    p{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: $colorS;
+        font-style: oblique;
+    }
 }
 .imagenNosotros{
     margin: 20px;
     border-radius: 20px;
-}
-
-.imagenNosotros1 p{
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: $colorS;
-    font-style: oblique;
 }
 .patrocinio1{
     display: flex;
@@ -35,19 +32,17 @@ main p{
 .patrocinio{
     font-size: 17px;
     display: flex;
+    img{
+        margin: 20px;
+    }
+    p{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        font-family: sans-serif;
+        color: $colorS;
+    }
 }
-
-.patrocinio img{
-    margin: 20px;
-}
-.patrocinio p{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    font-family: sans-serif;
-    color: $colorS;
-}
-
 .grilla2{
     display: grid;
     grid-template-areas: 
@@ -61,13 +56,13 @@ main p{
     /*Nosotros*/
     .imagenNosotros1{
         flex-direction: column;
-    }
-    .imagenNosotros1 img{
-        width: 96%;
-    }
-    .imagenNosotros1 p{
-        padding: 40px;
-        font-size: 25px;
+        img{
+            width: 96%;
+        }
+        p{
+            padding: 40px;
+            font-size: 25px;
+        }
     }
     .p1{
         grid-area: p1;
@@ -109,13 +104,13 @@ main p{
     /*Nosotros*/
     .imagenNosotros1{
         flex-direction: column;
-    }
-    .imagenNosotros1 img{
-        width: 96%;
-    }
-    .imagenNosotros1 p{
-        padding: 40px;
-        font-size: 25px;
+        img{
+            width: 96%;
+        }
+        p{
+            padding: 40px;
+            font-size: 25px;
+        }
     }
     .p1{
         grid-area: p1;
