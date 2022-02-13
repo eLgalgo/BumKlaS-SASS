@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="multimedia/logo2.png">
     <script src="./js/bootstrap.js"></script>
     <meta charset="UTF-8">
+    <!-- SEO -->
+    <meta name="description" content="Pagina de inicio BumKlaS">
+    <meta name="keywords" content="Skateshop, Tienda de skate, tabla, trucks, ruedas, skate">
 </head>
 
 <!--Lo que el usuario ve-->
@@ -32,23 +35,25 @@
     <main class="contenidoPrincipal">
             <video id="animaDos" class="videoPrincipal" src="multimedia/videoPrincipal.mp4" controls poster="multimedia/maxresdefault.jpg" width="100%"></video>
     </main>
-    <section class="parrafo1 container">
+    <section class="parrafo1 parrafo1d container">
         <div class="container parrafo2 rounded-3">
-            <div>
-                <img class="img-fluid" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid" src="./multimedia/logo2.png" alt="" width="10%">
-                <img class="img-fluid" src="./multimedia/logo2.png" alt="" width="10%">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
+                <img class="img-fluid mx-auto" src="./multimedia/logo2.png" alt="" width="10%">
             </div>
-            <p class="animaUno lead display-6 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, repellendus odio nisi perspiciatis magnam laborum adipisci quo sit aliquid dignissimos modi minima, rem asperiores nobis quidem reprehenderit deleniti beatae praesentium.</p>
-            <div>
-                <img class="img-fluid w-100 animacionIndex" src="./multimedia/icono.png" alt="">
+            <p class="lead display-2 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, repellendus odio nisi perspiciatis magnam laborum adipisci quo sit aliquid dignissimos modi minima, rem asperiores nobis quidem reprehenderit deleniti beatae praesentium.</p>
+            <div class="container d-flex">
+                <img class="img-fluid w-50 mx-auto" src="./multimedia/icono.png" alt="">
             </div>
         </div>
-        <img class="img-fluid" src="multimedia/fotoPrincipal.jpeg" alt="hombre-en-skate" width="85%" >
+        <picture class="img-fluid">
+          <source media="(max-width: 799px)" srcset="multimedia/fotoPrincipal-movil.png">
+          <img class="img-fluid" src="multimedia/fotoPrincipal.jpeg" alt="hombre-en-skate">
+        </picture>
     </section>
     <aside class="container center-items mx-auto row">        
         <div id="carouselExampleIndicators" class=" col-sm-6 col-md-6 carousel" data-bs-ride="carousel">
